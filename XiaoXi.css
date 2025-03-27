@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgba(20, 20, 20, 0); /* 设置头部背景颜色为半透明黑色 */
+    height: 58px; /* 设置头部高度 */
+    width: 100%; /* 设置头部宽度为100% */
+    position: fixed; /* 固定头部位置 */
+}
+header ul{
+    position: absolute; /* 绝对定位导航菜单 */
+    right:5.4vw; /* 距右侧5.4%的视口宽度 */
+    top: 0; /* 距顶部0 */
+    line-height: 60px; /* 设置行高与头部高度一致 */
+}
+header li{
+    display: inline; /* 设置导航项为行内元素 */
+    margin-right: 4vw; /* 设置导航项右边距 */
+}
+h1{
+    color: white; /* 设置标题文字颜色为白色 */
+    position: absolute; /* 绝对定位标题 */
+    left: 5vw; /* 距左侧5%的视口宽度 */
+    top: 0; /* 距顶部0 */
+    line-height: 60px; /* 设置行高与头部高度一致 */
+    font-size: 25px; /* 设置标题字体大小 */
+}
+header a{
+    font-size: 16px; /* 设置导航链接字体大小 */
+    color: white; /* 设置导航链接文字颜色为白色 */
+    text-decoration: none; /* 去掉链接下划线 */
+}
+header a:hover{
+    text-decoration: underline; /* 鼠标悬停时显示下划线 */
+}
+.Xiao1 {
+    background-color: antiquewhite; /* 设置背景颜色为古白色 */
+    color: white; /* 设置文字颜色为白色 */
+    height: 70vh; /* 设置高度为视口高度的70% */
+    background-image: url(images/C1.png); /* 设置背景图片 */
+    background-size: cover; /* 背景图片覆盖整个容器 */
+    background-position: center; /* 背景图片居中 */
+    font-size: 35px; /* 设置字体大小 */
+    display: flex; /* 使用Flex布局 */
+    align-items: flex-end; /* 垂直方向对齐到容器底部 */
+    justify-content: flex-start; /* 水平方向对齐到容器左侧 */
+    padding-left: 130px; /* 添加左侧内边距 */
+    padding-bottom: 40px; /* 添加底部内边距 */
+
+}
+.Xiao2 a{
+    text-decoration: none;/* 去掉链接下划线 */
+    color: rgb(0, 0, 0);/* 设置文字颜色 */
+    font-size: 20px;/* 设置字体大小 */
+    margin-left: 4vw;/* 设置左外边距 */
+}
+.Xiao2 a:hover{
+    text-decoration: underline;/* 鼠标悬停时显示下划线 */
+}
+.Xiao2 li{  
+    display: inline-block; /* 设置为并排显示 */
+}
+.Xiao2 nav{
+    padding-left: 13vw; /* 设置左内边距 */
+    padding-top: 40px; /* 设置上内边距 */
+    margin-bottom: 3vw; /* 设置下外边距 */
+}
+.Xiao3{
+    border-top: 1px solid rgb(184, 181, 181); /* 添加顶部黑色边框 */
+    height: 25vh; /* 设置高度为视口高度的25% */
+    display: flex; /* 使用Flex布局 */
+    padding-top: 3vw; /* 设置上内边距 */
+    padding-bottom: 3vw; /* 设置下内边距 */
+}
+.Xiao3 nav{
+    color: #000;
+    text-rendering: auto;
+    padding-left: 18vw; /* 设置左内边距 */
+}
+.Xiao3 img{
+    margin-left: 10vw; /* 设置左外边距 */
+}
+.Xiao3 h3{
+    font-size: 30px; /* 设置字体大小 */
+    margin-bottom: 2vw; /* 设置下外边距 */
+}
+.Xiao3 a{
+    text-decoration: none; /* 去掉链接下划线 */
+    color: #000; /* 设置文字颜色 */
+}
+.Xiao3 a:hover{
+    text-decoration: underline; /* 鼠标悬停时显示下划线 */
+}
+.Xiao3 p{
+    font-size: 20px; /* 设置字体大小 */
+}
+.Xiao4{
+    border-top: 1px solid rgb(184, 181, 181); /* 添加顶部黑色边框 */
+    height: 25vh; /* 设置高度为视口高度的25% */
+    display: flex; /* 使用Flex布局 */
+    padding-top: 3vw; /* 设置上内边距 */
+    padding-bottom: 3vw; /* 设置下内边距 */
+}
+.Xiao4 nav{
+    color: #000;
+    text-rendering: auto;
+    padding-left: 18vw; /* 设置左内边距 */
+}
+.Xiao4 img{
+    margin-left: 10vw; /* 设置左外边距 */
+}
+.Xiao4 h3{
+    font-size: 30px; /* 设置字体大小 */
+    margin-bottom: 2vw; /* 设置下外边距 */
+}
+.Xiao4 a{
+    text-decoration: none; /* 去掉链接下划线 */
+    color: #000; /* 设置文字颜色 */
+}
+.Xiao4 a:hover{
+    text-decoration: underline; /* 鼠标悬停时显示下划线 */
+}
+.Xiao4 p{
+    font-size: 20px; /* 设置字体大小 */
+}
+.Xiao5{
+    border-top: 1px solid rgb(184, 181, 181); /* 添加顶部黑色边框 */
+    height: 25vh; /* 设置高度为视口高度的25% */
+    display: flex; /* 使用Flex布局 */
+    padding-top: 3vw; /* 设置上内边距 */
+    padding-bottom: 3vw; /* 设置下内边距 */
+}
+.Xiao5 nav{
+    color: #000;
+    text-rendering: auto;
+    padding-left: 18vw; /* 设置左内边距 */
+}
+.Xiao5 img{
+    margin-left: 10vw; /* 设置左外边距 */
+}
+.Xiao5 h3{
+    font-size: 30px; /* 设置字体大小 */
+    margin-bottom: 2vw; /* 设置下外边距 */
+}
+.Xiao5 a{
+    text-decoration: none; /* 去掉链接下划线 */
+    color: #000; /* 设置文字颜色 */
+}
+.Xiao5 a:hover{
+    text-decoration: underline; /* 鼠标悬停时显示下划线 */
+}
+.Xiao5 p{
+    font-size: 20px; /* 设置字体大小 */
+}
